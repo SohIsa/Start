@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!-- HTML
+
+hypertext
+
+texto que contem links para outros documentos
+
+markup
+
+texto com marcações
+<tags>
+    
+language
+
+para se comunicar de certa maneira. Sintaxe específica para escrita
+-->
+
+<html>
+
+<head>
+    <!--configurações da pagina-->
+    <title>Doe para salvar</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+
+        <img 
+            class="logo"
+            src="logo.png" 
+            alt="DOE">
+        <h2>Sua doação importa</h2>
+        <p>Até três vidas com 1 doação</p>
+        <p>Mais de 30.000 doações são necessárias todos os dias</p>
+        <p>Apenas 1,9% da população brasileira doa sangue</p>
+        <button>Quero ajudar</button>
+    </header>
+
+    <section class="form hide">
+        <h2>Entre na lista de doadores</h2>
+        <form action="/">
+        <input 
+            type="text"
+            name="name"
+            placeholder="Nome Completo">
+        <input 
+            type="text"
+            name="email"
+            placeholder="Email">
+        <input 
+            type="text"
+            name="blood"
+            placeholder="Tipo sanguineo">
+        <button>Quero ajudar</button>
+        
+        </form>
+    </section>
+
+    <main>
+        <h2>Últimos <span>doadores</span></h2>
+
+        <section class='donors'>
+            <div class='donor'>
+                <div class="blood">AB+</div>
+                <p>Isa Polyana</p>
+            </div>
+        
+            <div class='donor'>
+                <div class="blood">B+</div>
+                <p>Larissa Caren</p>
+            </div>
+        
+            <div class='donor'>
+                <div class="blood">A+</div>
+                <p>Aline Rodrigues</p>
+            </div>
+        
+            <div class='donor'>
+                <div class="blood">O+</div>
+                <p>Edwine Soares</p>
+            </div>
+        </section>
+    </main>
+    <footer>😍 Rocketseat 😍</footer>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
