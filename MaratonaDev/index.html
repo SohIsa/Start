@@ -41,7 +41,7 @@ para se comunicar de certa maneira. Sintaxe específica para escrita
 
     <section class="form hide">
         <h2>Entre na lista de doadores</h2>
-        <form action="/">
+        <form action="/" method="POST">
         <input 
             type="text"
             name="name"
@@ -63,25 +63,15 @@ para se comunicar de certa maneira. Sintaxe específica para escrita
         <h2>Últimos <span>doadores</span></h2>
 
         <section class='donors'>
-            <div class='donor'>
-                <div class="blood">AB+</div>
-                <p>Isa Polyana</p>
-            </div>
-        
-            <div class='donor'>
-                <div class="blood">B+</div>
-                <p>Larissa Caren</p>
-            </div>
-        
-            <div class='donor'>
-                <div class="blood">A+</div>
-                <p>Aline Rodrigues</p>
-            </div>
-        
-            <div class='donor'>
-                <div class="blood">O+</div>
-                <p>Edwine Soares</p>
-            </div>
+
+            {% for donor in donors %}
+
+                <div class='donor'>
+                    <div class="blood">{{donor.blood}}</div>
+                    <p>{{donor.name}}</p>
+                </div>
+
+            {%endfor%}
         </section>
     </main>
     <footer>😍 Rocketseat 😍</footer>
