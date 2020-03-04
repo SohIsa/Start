@@ -52,4 +52,53 @@ def main ():
         print(f'Código {cod} você foi REPROVADO com média {(media(pont1,pont2,pont3))} tendo notas {pont1}, {pont2} e {pont3}')
 main()'''
 #7
-
+'''def main():
+    valor1=int(input('número:'))
+    valor2=int(input('número:'))'''
+#8 - 10
+'''def main():
+    valor1=int(input('primeira nota:'))
+    valor2=int(input('segunda nota:'))
+    while valor1<0 or valor1>10:
+        print ('primeira nota invalida')
+        valor1=int(input('primeira nota:'))
+    while valor2<0 or valor2>10:
+        valor1=int(input('segunda nota:'))
+    print ((valor1+valor2)/2)
+main ()'''
+#11
+'''def main ():
+    nota1=int(input('nota:'))
+    nota2=int(input('nota:'))
+    while nota2<0 and nota2>10:
+        print('nota invalida')
+        nota1=int(input('nota:'))
+        nota2=int(input('nota:'))
+        print ((nota1+nota2)/2)
+main()'''
+#12
+'''cres=[]
+for i in range(10):
+    cres.append(input(f'números:'))
+print(sorted(cres))'''
+#13
+'''for i in range(10,-1,-1):
+    print (i)'''
+#14
+'''def main ():
+    soma=0
+    for i in range(10):
+        num=int(input('números:'))
+        soma+=num
+    print(soma)    
+main()'''
+#15
+'''def main ():
+    soma=0
+    totalmecadoria=int(input('quantas mercadorias?'))
+    for i in range (totalmecadoria):
+        valormercadoria=int(input('quanto custou?'))
+        soma+=valormercadoria
+    print(f'o valor total em estoque foi de {soma}')
+    print(f'a média dos valores das mercadorias {soma/totalmecadoria}')
+main()'''
