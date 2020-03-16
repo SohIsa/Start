@@ -1,7 +1,8 @@
 from listaa import Pilha
 def main ():
     texto = Pilha()
-    for i in range(3):
+    a=''
+    while a!= ('-1'):
         a=input('coisas:')
         if a == ('@'):
             texto.esvaziar()
