@@ -11,6 +11,7 @@ def main ():
         a=(input('alimento:'))
         fome.push(a)
         emof.novoValor(a)'''
+    #com while eh melhor por agora pq a funcção criada não é generica o que eventualmente pode atrapalhar
     while fome.getPilha():
         grandfome.push(fome.pop())
     print (grandfome.getPilha())
