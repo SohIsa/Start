@@ -12,6 +12,7 @@ def main ():
         fome.push(a)
         emof.novoValor(a)'''
     #com while eh melhor por agora pq a funcção criada não é generica o que eventualmente pode atrapalhar
+    #pop tbm conhecido como backspace caso eu n tenha mudado
     while fome.getPilha():
         grandfome.push(fome.pop())
     print (grandfome.getPilha())
