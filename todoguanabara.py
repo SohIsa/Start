@@ -52,4 +52,24 @@ import math
     print(f'o cosseno é {math.cos(math.radians(ang)):.2f} e a tangente é {(math.tan(math.radians(ang))):.2f}')
 main()'''
 #019 sorteando um item na lista
-def main():
+import random
+'''def main():
+    alunos=[]
+    for i in range(3):
+        nome=input('nome do aluno:')
+        alunos.append(nome)
+    k = random.choice(alunos)
+    print(k)    
+main()'''
+#020 Sorteando uma ordem na lista
+'''def main():
+    lista=[]
+    for i in range(3):
+        nome=input('nome:')
+        lista.append(nome)
+        random.shuffle(lista)
+    print(lista)
+main()'''
+#021 Tocando um MP3
+
+
