@@ -70,6 +70,6 @@ main()'''
         random.shuffle(lista)
     print(lista)
 main()'''
-#021 Tocando um MP3
+#021 Tocando um M
 
 
