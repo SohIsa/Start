@@ -43,7 +43,7 @@ def hipotenusa(catAd,catOp):
     return ((catAd**2+catOp**2)**(1/2))
 '''print (f' a hipotesuca vai medir {hipotenusa(2,2.5):.2f}')'''
 #018 seno, cos e tangente
-import math
+#import math
 # se (from math import radians, sin, cos, tan) n precisa colocar todos os math
 '''def main():
     ang=float(input('valor:'))
@@ -52,7 +52,7 @@ import math
     print(f'o cosseno é {math.cos(math.radians(ang)):.2f} e a tangente é {(math.tan(math.radians(ang))):.2f}')
 main()'''
 #019 sorteando um item na lista
-import random
+#import random
 '''def main():
     alunos=[]
     for i in range(3):
@@ -70,6 +70,9 @@ main()'''
         random.shuffle(lista)
     print(lista)
 main()'''
-#021 Tocando um M
+#021 Tocando um MP3
+import pygame
+
+
 
 
